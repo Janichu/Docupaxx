@@ -1,0 +1,19 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "## Purpose The purpose of this folder is to store all the source code and related files for your team's application. Source code MUST NOT be in any of folder. <strong>YOU HAVE BEEN WARNED</strong>",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "start": "npm -C application/server start",
+    "build-client": "npm -C application/web run build",
+    "preinstall": "npm -C application/server install && npm -C application/web install",
+    "run-db-migrations": "npm -C application/server run run-db-migrations"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "bcrypt": "^5.0.1"
+  }
+}

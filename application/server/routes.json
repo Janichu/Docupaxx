@@ -1,0 +1,11 @@
+{
+  "/organizations/search\\?name:like=%:query%": "/organizations?name_like=:query",
+  "/organizations/:id/users/:userId": "/users/:userId",
+  "/organizations/:id/packages/:packageId": "/packages/:packageId",
+  "/organizations/:id/applicants/:applicantId": "/applicants/:applicantId",
+  "/organizations/:id/arps/:arpId": "/arps/:arpId",
+  "/users/:id/packages/:packageId": "/packages/:packageId",
+  "/users/:id/packages/:sentPackageId": "/sentPackages/:sentPackageId",
+  "/users/:id/packages/:packageId/documents/:documentId": "/packages/:packageId/documents/:documentId",
+  "/packages/:id/documents/:documentId": "/documents/:documentId"
+}
